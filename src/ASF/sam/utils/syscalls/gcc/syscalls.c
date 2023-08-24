@@ -126,7 +126,7 @@ extern void _exit(int status)
 
 extern void _kill(int pid, int sig)
 {
-	return;
+	return 0;
 }
 
 extern int _getpid(void)
